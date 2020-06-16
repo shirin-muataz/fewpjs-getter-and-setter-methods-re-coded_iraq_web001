@@ -24,6 +24,7 @@ class Circle{
     return 2*this.radius*Math.PI;
   }
   set area(radius){
+    this.radius=radius;
     return (radius **2) * Math.PI;
   }
 }
