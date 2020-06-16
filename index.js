@@ -19,7 +19,7 @@ class Circle{
   }
   
   set circumference(radius){
-    return radius*Math.PI;
+    return 2*radius*Math.PI;
   }
   set area(radius){
     return Math.sqrt(radius) * Math.PI;
