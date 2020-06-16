@@ -18,10 +18,10 @@ class Circle{
     return this.radius *2;
   }
   
-  get circumference(){
+  set circumference(radius){
     return this.radius *2 *Math.PI;
   }
-  get area(){
+  set area(radius){
     return Math.sqrt(this.radius) * Math.PI;
   }
 }
