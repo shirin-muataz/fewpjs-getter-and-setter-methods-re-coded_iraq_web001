@@ -4,14 +4,14 @@ class Circle{
     this._radius=radius;
   }
   get diameter(){
-    return this._radius *2;
+    return this.radius *2;
   }
   
   get circumference(){
-    return 2 * Math.PI * this._radius;
+    return 2 * Math.PI * this.radius;
   }
   get area(){
-    return Math.sqrt(this._radius) * Math.PI;
+    return Math.sqrt(this.radius) * Math.PI;
   }
   
   set diameter(radius){
